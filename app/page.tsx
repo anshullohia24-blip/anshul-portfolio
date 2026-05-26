@@ -243,36 +243,35 @@ export default function Portfolio() {
       {/* Contact */}
       <section className="py-32 px-6 text-center border-t border-white/10">
         <p className="text-yellow-400 uppercase tracking-[0.3em] mb-4 text-sm">
-          Contact
-        </p>
-<span>•</span>
+         <a
+  href="mailto:anshullohia24@gmail.com"
+  className="hover:text-white transition-all"
+>
+  anshullohia24@gmail.com
+</a>
+
+<a
+  href="https://www.linkedin.com/in/anshul-lohia-259416262/"
+  target="_blank"
+  className="hover:text-white transition-all"
+>
+  LinkedIn
+</a>
 
 <a
   href="https://wa.me/917503121777"
-  className="hover:text-yellow-400 transition-all"
+  target="_blank"
+  className="hover:text-white transition-all"
 >
   WhatsApp
 </a>
-        <h2 className="text-4xl md:text-6xl font-serif leading-tight max-w-4xl mx-auto">
-          Let’s build intelligent systems together.
-        </h2>
 
-        <div className="flex flex-wrap justify-center gap-6 mt-12 text-gray-300">
-          <a
-            href="mailto:anshullohia24@gmail.com"
-            className="hover:text-yellow-400 transition-all"
-          >
-            anshullohia24@gmail.com
-          </a>
-
-          <span>•</span>
-
-          <a
-            href="https://www.linkedin.com/in/anshul-lohia-259416262/"
-            className="hover:text-yellow-400 transition-all"
-          >
-            LinkedIn
-          </a>
+<a
+  href="tel:+917503121777"
+  className="hover:text-white transition-all"
+>
+  +91 75031 21777
+</a>
         </div>
 
         <p className="mt-12 text-gray-500 text-sm tracking-[0.2em] uppercase">
