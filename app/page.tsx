@@ -262,8 +262,9 @@ export default function Portfolio() {
   href="https://wa.me/917503121777"
   target="_blank"
   className="hover:text-white transition-all"
->
-  WhatsApp
+        <
+          
+          WhatsApp
 </a>
 
 <a
