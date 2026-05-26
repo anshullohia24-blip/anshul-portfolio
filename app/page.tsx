@@ -57,7 +57,7 @@ export default function Portfolio() {
 
             <div className="grid grid-cols-2 gap-4 mt-10 text-sm text-gray-400">
               <div className="border border-white/10 rounded-2xl p-4">
-                Gurugram / Delhi
+                 Delhi / Gurugram
               </div>
 
               <div className="border border-white/10 rounded-2xl p-4">
@@ -245,7 +245,14 @@ export default function Portfolio() {
         <p className="text-yellow-400 uppercase tracking-[0.3em] mb-4 text-sm">
           Contact
         </p>
+<span>•</span>
 
+<a
+  href="https://wa.me/917503121777"
+  className="hover:text-yellow-400 transition-all"
+>
+  WhatsApp
+</a>
         <h2 className="text-4xl md:text-6xl font-serif leading-tight max-w-4xl mx-auto">
           Let’s build intelligent systems together.
         </h2>
